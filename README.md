@@ -23,3 +23,17 @@ yarn start
 ```
 GET /api/v1/ping
 ```
+
+# Frontend setup
+
+### Install dependencies
+
+```
+npm install
+```
+
+### Start server on localhost
+
+```
+npm run dev
+```

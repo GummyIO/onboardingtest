@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import dbConfig from './database/config';
+// import dbConfig from './database/config';
 
 const connectMongo = () => {
     console.log('connecting to mongodb...');
