@@ -1,0 +1,9 @@
+.App {
+    width: 40%;
+    margin: auto;
+}
+
+button,
+input {
+    margin: 5px;
+}

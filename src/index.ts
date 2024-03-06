@@ -15,7 +15,7 @@ import getTokenPriceData from './cronJobs/priceData/getTokenPriceData';
 import getLPTokenPriceData from './cronJobs/priceData/getLPTokenPriceData';
 
 const execute = async () => {
-    // await connectMongo();
+    await connectMongo();
     await Moralis.start({
         apiKey: moralisApiKey,
     });
