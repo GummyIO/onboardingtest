@@ -1,0 +1,621 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "IS_SCRIPT",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "run",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052600b805462ff00ff19166201000117905534801561002157600080fd5b50610c6d806100316000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063c04062261461003b578063f8ccbf4714610045575b600080fd5b61004361006c565b005b600b546100589062010000900460ff1681565b604051901515815260200160405180910390f35b7f885cb69240a935d632d79c317109709ecfa91a80626ff3989d68f67f5b1dd12d60001c6001600160a01b0316637fb5297f6040518163ffffffff1660e01b8152600401600060405180830381600087803b1580156100ca57600080fd5b505af11580156100de573d6000803e3d6000fd5b5050505060006040516100f090610188565b604051809103906000f08015801561010c573d6000803e3d6000fd5b5090507f885cb69240a935d632d79c317109709ecfa91a80626ff3989d68f67f5b1dd12d60001c6001600160a01b03166376eadd366040518163ffffffff1660e01b8152600401600060405180830381600087803b15801561016d57600080fd5b505af1158015610181573d6000803e3d6000fd5b5050505050565b610aa2806101968339019056fe60806040523480156200001157600080fd5b5060408051808201909152600b81526a23bab6b6bc902a37b5b2b760a91b60208201526000906200004390826200019b565b5060408051808201909152600281526111d560f21b60208201526001906200006c90826200019b565b50601260028190556200008190600a6200037c565b62000091906305f5e10062000391565b6003819055336000818152600560209081526040808320859055600480546001600160a01b0319168517905551938452919290917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef910160405180910390a3620003ab565b634e487b7160e01b600052604160045260246000fd5b600181811c908216806200012157607f821691505b6020821081036200014257634e487b7160e01b600052602260045260246000fd5b50919050565b601f8211156200019657600081815260208120601f850160051c81016020861015620001715750805b601f850160051c820191505b8181101562000192578281556001016200017d565b5050505b505050565b81516001600160401b03811115620001b757620001b7620000f6565b620001cf81620001c884546200010c565b8462000148565b602080601f831160018114620002075760008415620001ee5750858301515b600019600386901b1c1916600185901b17855562000192565b600085815260208120601f198616915b82811015620002385788860151825594840194600190910190840162000217565b5085821015620002575787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b634e487b7160e01b600052601160045260246000fd5b600181815b80851115620002be578160001904821115620002a257620002a262000267565b80851615620002b057918102915b93841c939080029062000282565b509250929050565b600082620002d75750600162000376565b81620002e65750600062000376565b8160018114620002ff57600281146200030a576200032a565b600191505062000376565b60ff8411156200031e576200031e62000267565b50506001821b62000376565b5060208310610133831016604e8410600b84101617156200034f575081810a62000376565b6200035b83836200027d565b806000190482111562000372576200037262000267565b0290505b92915050565b60006200038a8383620002c6565b9392505050565b808202811582820484141762000376576200037662000267565b6106e780620003bb6000396000f3fe608060405234801561001057600080fd5b506004361061009e5760003560e01c806370a082311161006657806370a082311461011157806395d89b411461013a578063a9059cbb14610142578063dd62ed3e14610155578063ddc6a1711461018e57600080fd5b806306fdde03146100a3578063095ea7b3146100c157806318160ddd146100e457806323b872dd146100f6578063313ce56714610109575b600080fd5b6100ab6101a1565b6040516100b89190610516565b60405180910390f35b6100d46100cf366004610580565b610233565b60405190151581526020016100b8565b6003545b6040519081526020016100b8565b6100d46101043660046105aa565b61024a565b6002546100e8565b6100e861011f3660046105e6565b6001600160a01b031660009081526005602052604090205490565b6100ab61029c565b6100d4610150366004610580565b6102ab565b6100e8610163366004610608565b6001600160a01b03918216600090815260066020908152604080832093909416825291909152205490565b6100d461019c366004610580565b6102b8565b6060600080546101b09061063b565b80601f01602080910402602001604051908101604052809291908181526020018280546101dc9061063b565b80156102295780601f106101fe57610100808354040283529160200191610229565b820191906000526020600020905b81548152906001019060200180831161020c57829003601f168201915b5050505050905090565b60006102403384846102ef565b5060015b92915050565b60006102578484846103e4565b6001600160a01b03841660009081526006602090815260408083203380855292529091205461029291869161028d90869061068b565b6102ef565b5060019392505050565b6060600180546101b09061063b565b60006102403384846103e4565b3360008181526006602090815260408083206001600160a01b0387168452909152812054909161024091859061028d90869061069e565b6001600160a01b03831661033a5760405162461bcd60e51b815260206004820152600d60248201526c24b73b30b634b21037bbb732b960991b60448201526064015b60405180910390fd5b6001600160a01b0382166103825760405162461bcd60e51b815260206004820152600f60248201526e24b73b30b634b21039b832b73232b960891b6044820152606401610331565b6001600160a01b0383811660008181526006602090815260408083209487168084529482529182902085905590518481527f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92591015b60405180910390a3505050565b6001600160a01b03831661042b5760405162461bcd60e51b815260206004820152600e60248201526d24b73b30b634b21039b2b73232b960911b6044820152606401610331565b6001600160a01b0382166104755760405162461bcd60e51b8152602060048201526011602482015270125b9d985b1a59081c9958da5c1a595b9d607a1b6044820152606401610331565b6001600160a01b0383166000908152600560205260408120805483929061049d90849061068b565b90915550506001600160a01b038216600090815260056020526040812080548392906104ca90849061069e565b92505081905550816001600160a01b0316836001600160a01b03167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040516103d791815260200190565b600060208083528351808285015260005b8181101561054357858101830151858201604001528201610527565b506000604082860101526040601f19601f8301168501019250505092915050565b80356001600160a01b038116811461057b57600080fd5b919050565b6000806040838503121561059357600080fd5b61059c83610564565b946020939093013593505050565b6000806000606084860312156105bf57600080fd5b6105c884610564565b92506105d660208501610564565b9150604084013590509250925092565b6000602082840312156105f857600080fd5b61060182610564565b9392505050565b6000806040838503121561061b57600080fd5b61062483610564565b915061063260208401610564565b90509250929050565b600181811c9082168061064f57607f821691505b60208210810361066f57634e487b7160e01b600052602260045260246000fd5b50919050565b634e487b7160e01b600052601160045260246000fd5b8181038181111561024457610244610675565b808201808211156102445761024461067556fea264697066735822122028f56669724ddc10e032b894dd6de48e14e8418dcea9f4515332b50f0972f61f64736f6c63430008150033a2646970667358221220298a376ccb8d4ffa799cbba624759c7da0c1467173bdabc7be40b4c0b589f59864736f6c63430008150033",
+    "sourceMap": "184:179:17:-:0;;;3126:44:2;;;-1:-1:-1;;800:28:1;;;;;184:179:17;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c8063c04062261461003b578063f8ccbf4714610045575b600080fd5b61004361006c565b005b600b546100589062010000900460ff1681565b604051901515815260200160405180910390f35b7f885cb69240a935d632d79c317109709ecfa91a80626ff3989d68f67f5b1dd12d60001c6001600160a01b0316637fb5297f6040518163ffffffff1660e01b8152600401600060405180830381600087803b1580156100ca57600080fd5b505af11580156100de573d6000803e3d6000fd5b5050505060006040516100f090610188565b604051809103906000f08015801561010c573d6000803e3d6000fd5b5090507f885cb69240a935d632d79c317109709ecfa91a80626ff3989d68f67f5b1dd12d60001c6001600160a01b03166376eadd366040518163ffffffff1660e01b8152600401600060405180830381600087803b15801561016d57600080fd5b505af1158015610181573d6000803e3d6000fd5b5050505050565b610aa2806101968339019056fe60806040523480156200001157600080fd5b5060408051808201909152600b81526a23bab6b6bc902a37b5b2b760a91b60208201526000906200004390826200019b565b5060408051808201909152600281526111d560f21b60208201526001906200006c90826200019b565b50601260028190556200008190600a6200037c565b62000091906305f5e10062000391565b6003819055336000818152600560209081526040808320859055600480546001600160a01b0319168517905551938452919290917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef910160405180910390a3620003ab565b634e487b7160e01b600052604160045260246000fd5b600181811c908216806200012157607f821691505b6020821081036200014257634e487b7160e01b600052602260045260246000fd5b50919050565b601f8211156200019657600081815260208120601f850160051c81016020861015620001715750805b601f850160051c820191505b8181101562000192578281556001016200017d565b5050505b505050565b81516001600160401b03811115620001b757620001b7620000f6565b620001cf81620001c884546200010c565b8462000148565b602080601f831160018114620002075760008415620001ee5750858301515b600019600386901b1c1916600185901b17855562000192565b600085815260208120601f198616915b82811015620002385788860151825594840194600190910190840162000217565b5085821015620002575787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b634e487b7160e01b600052601160045260246000fd5b600181815b80851115620002be578160001904821115620002a257620002a262000267565b80851615620002b057918102915b93841c939080029062000282565b509250929050565b600082620002d75750600162000376565b81620002e65750600062000376565b8160018114620002ff57600281146200030a576200032a565b600191505062000376565b60ff8411156200031e576200031e62000267565b50506001821b62000376565b5060208310610133831016604e8410600b84101617156200034f575081810a62000376565b6200035b83836200027d565b806000190482111562000372576200037262000267565b0290505b92915050565b60006200038a8383620002c6565b9392505050565b808202811582820484141762000376576200037662000267565b6106e780620003bb6000396000f3fe608060405234801561001057600080fd5b506004361061009e5760003560e01c806370a082311161006657806370a082311461011157806395d89b411461013a578063a9059cbb14610142578063dd62ed3e14610155578063ddc6a1711461018e57600080fd5b806306fdde03146100a3578063095ea7b3146100c157806318160ddd146100e457806323b872dd146100f6578063313ce56714610109575b600080fd5b6100ab6101a1565b6040516100b89190610516565b60405180910390f35b6100d46100cf366004610580565b610233565b60405190151581526020016100b8565b6003545b6040519081526020016100b8565b6100d46101043660046105aa565b61024a565b6002546100e8565b6100e861011f3660046105e6565b6001600160a01b031660009081526005602052604090205490565b6100ab61029c565b6100d4610150366004610580565b6102ab565b6100e8610163366004610608565b6001600160a01b03918216600090815260066020908152604080832093909416825291909152205490565b6100d461019c366004610580565b6102b8565b6060600080546101b09061063b565b80601f01602080910402602001604051908101604052809291908181526020018280546101dc9061063b565b80156102295780601f106101fe57610100808354040283529160200191610229565b820191906000526020600020905b81548152906001019060200180831161020c57829003601f168201915b5050505050905090565b60006102403384846102ef565b5060015b92915050565b60006102578484846103e4565b6001600160a01b03841660009081526006602090815260408083203380855292529091205461029291869161028d90869061068b565b6102ef565b5060019392505050565b6060600180546101b09061063b565b60006102403384846103e4565b3360008181526006602090815260408083206001600160a01b0387168452909152812054909161024091859061028d90869061069e565b6001600160a01b03831661033a5760405162461bcd60e51b815260206004820152600d60248201526c24b73b30b634b21037bbb732b960991b60448201526064015b60405180910390fd5b6001600160a01b0382166103825760405162461bcd60e51b815260206004820152600f60248201526e24b73b30b634b21039b832b73232b960891b6044820152606401610331565b6001600160a01b0383811660008181526006602090815260408083209487168084529482529182902085905590518481527f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92591015b60405180910390a3505050565b6001600160a01b03831661042b5760405162461bcd60e51b815260206004820152600e60248201526d24b73b30b634b21039b2b73232b960911b6044820152606401610331565b6001600160a01b0382166104755760405162461bcd60e51b8152602060048201526011602482015270125b9d985b1a59081c9958da5c1a595b9d607a1b6044820152606401610331565b6001600160a01b0383166000908152600560205260408120805483929061049d90849061068b565b90915550506001600160a01b038216600090815260056020526040812080548392906104ca90849061069e565b92505081905550816001600160a01b0316836001600160a01b03167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040516103d791815260200190565b600060208083528351808285015260005b8181101561054357858101830151858201604001528201610527565b506000604082860101526040601f19601f8301168501019250505092915050565b80356001600160a01b038116811461057b57600080fd5b919050565b6000806040838503121561059357600080fd5b61059c83610564565b946020939093013593505050565b6000806000606084860312156105bf57600080fd5b6105c884610564565b92506105d660208501610564565b9150604084013590509250925092565b6000602082840312156105f857600080fd5b61060182610564565b9392505050565b6000806040838503121561061b57600080fd5b61062483610564565b915061063260208401610564565b90509250929050565b600181811c9082168061064f57607f821691505b60208210810361066f57634e487b7160e01b600052602260045260246000fd5b50919050565b634e487b7160e01b600052601160045260246000fd5b8181038181111561024457610244610675565b808201808211156102445761024461067556fea264697066735822122028f56669724ddc10e032b894dd6de48e14e8418dcea9f4515332b50f0972f61f64736f6c63430008150033a2646970667358221220298a376ccb8d4ffa799cbba624759c7da0c1467173bdabc7be40b4c0b589f59864736f6c63430008150033",
+    "sourceMap": "184:179:17:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;227:134;;;:::i;:::-;;800:28:1;;;;;;;;;;;;;;;179:14:19;;172:22;154:41;;142:2;127:18;800:28:1;;;;;;;227:134:17;317:28:0;309:37;;-1:-1:-1;;;;;259:17:17;;:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;288:18;309:17;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;288:38;;317:28:0;309:37;;-1:-1:-1;;;;;336:16:17;;:18;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;249:112;227:134::o;-1:-1:-1:-;;;;;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "IS_SCRIPT()": "f8ccbf47",
+    "run()": "c0406226"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"IS_SCRIPT\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"run\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"script/DeployGummyERC20T.s.sol\":\"DeployGummyERC20T\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/contracts/=node_modules/openzeppelin-solidity/contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-solidity/=node_modules/openzeppelin-solidity/\"]},\"sources\":{\"lib/forge-std/src/Base.sol\":{\"keccak256\":\"0x4ff1a785311017d1eedb1b4737956fa383067ad34eb439abfec1d989754dde1c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f553622969b9fdb930246704a4c10dfaee6b1a4468c142fa7eb9dc292a438224\",\"dweb:/ipfs/QmcxqHnqdQsMVtgsfH9VNLmZ3g7GhgNagfq7yvNCDcCHFK\"]},\"lib/forge-std/src/Script.sol\":{\"keccak256\":\"0x2315be74cc2826f9da401bea3da46a10ad6a6efdf73176d79160b453286d0ed2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://af0d4dc826911d6cb4d6272ed5cbdb6950e1476141cca328e178b808d848789c\",\"dweb:/ipfs/QmV2ytjUEkV84VtdMs1nZqQTBoVE987cHboQMpiha5yo3e\"]},\"lib/forge-std/src/StdChains.sol\":{\"keccak256\":\"0x598b85609125830885b8fb54a18f447d04f8dd799aca3de81baef35eb6b783c0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c9c128aae4f5668d8c8f71e9e6d9379d8451b8713d139cb66a02d23bc1c75f69\",\"dweb:/ipfs/QmVRihXHWi2yg9CcAhzKf63Y7m6gWz4P1giGMhXUHT3DFu\"]},\"lib/forge-std/src/StdCheats.sol\":{\"keccak256\":\"0xb72f3519e0bf7d31df5d68557525f4fc55d861c3fb3b0f7793144ef7c94cbeb7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f3456d0f78e6f61203fa7871ba2df0d35925f10db3baee14be623ce2a35b84e2\",\"dweb:/ipfs/QmWE6QQSBvJifHMraisBTrf1x4WCwrDoTPLX8UKajTiApc\"]},\"lib/forge-std/src/StdJson.sol\":{\"keccak256\":\"0x8f914dbd016bd0e318fe2b8bd556fbc8256c7cddc24e3e4fcb9f3c1c1935592d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://19e704df493dde38323303b07d18cadfeb4dcadf1ddc2301add4aea9474fbb5e\",\"dweb:/ipfs/QmZasuGiLK8LHwWtvpqEBxUR6QFY6GdzLMTJ9q7CMf8PNZ\"]},\"lib/forge-std/src/StdMath.sol\":{\"keccak256\":\"0xd90ad4fd8aeaeb8929964e686e769fdedd5eded3fc3815df194a0ab9f91a3fb2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7919b70f636c7b805223992f28ad1ad0145d6c1385b5931a3589aface5fe6c92\",\"dweb:/ipfs/QmY7FRaULwoGgFteF8GawjQJRfasNgpWnU2aiMsFrYpuTC\"]},\"lib/forge-std/src/StdStorage.sol\":{\"keccak256\":\"0x4298f3f4cedaedb07029820b1daad2c03af45379559392201f7bf3ec71105811\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6e062f36d8d1ae3c383ef8975757926eaa9c4de3a92b5f1fe2d12748bcd8db32\",\"dweb:/ipfs/QmcWkv3ia5Ew4DZNcudMNSTNXZ3W2QiXTZunRd44e9BT8z\"]},\"lib/forge-std/src/StdStyle.sol\":{\"keccak256\":\"0x43e2a8a9b9c2574dabe74f11adf6f782df218f463540e3b5b563609fe108597d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://51363ca97404cf4128e1141428949768c31929e75e014b02c85e887fbbb4f1b8\",\"dweb:/ipfs/QmVhtbQc2fU4rRmbcfBtz34mAgG4BAZBsbna1Ca4SkoPsK\"]},\"lib/forge-std/src/StdUtils.sol\":{\"keccak256\":\"0x502b18a4becda6ecd91fa8b419d8034946bfa80e6cc7f6497f51f8565bfadae0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bf499ee483a1dfd02023d4ce78ed4029a49794ccd5b849aaab912faea0d2ba61\",\"dweb:/ipfs/QmP6hwNZW7sYbQK9fBzuZWxfLm6Swx2nKzvZ54qWNqQkzX\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x87ba9f3edc254e529db9e3129c954391adcc7fc8574203767979d8d2f1e724b9\",\"license\":\"MIT OR Apache-2.0\",\"urls\":[\"bzz-raw://4d16c08d80d9f2869deb6350642cf5af624d21fce6b3b023abbcdedc62e195fe\",\"dweb:/ipfs/QmURpnnFECPKt3i7P7jQRZpr4ZBXjRGcZ9KzcbKzsgYR2W\"]},\"lib/forge-std/src/console.sol\":{\"keccak256\":\"0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70\",\"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec\"]},\"lib/forge-std/src/console2.sol\":{\"keccak256\":\"0x954646445d1014c3cd85c7918f5e7adeeca5ee44b68c00bafa237e597a4e35ea\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://516fa3be52da4763147175bfba4be0aa011fadbb0c1afb01f97265bd4cee7973\",\"dweb:/ipfs/QmdixAyMJefx7qePChgdxcBH5MxhmN7vsqPuPLx3CgrVmF\"]},\"lib/forge-std/src/interfaces/IMulticall3.sol\":{\"keccak256\":\"0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0\",\"dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2\"]},\"lib/forge-std/src/mocks/MockERC20.sol\":{\"keccak256\":\"0xd8703f49411737ecf8d411f8fa66b2bf0ef972ba28b7a4adf1748c63df1bf682\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b7c10a6b8112f6fe3cdccb6240ecd382765216b1a82e9a86a0fec8f5e09eadd1\",\"dweb:/ipfs/QmdRvPCU4RkjMHsTu3Ric1ZEF1AWDNLp78unFC5aWP17xq\"]},\"lib/forge-std/src/mocks/MockERC721.sol\":{\"keccak256\":\"0xa24468244abb66e663fb7eee6463cb518eb9a7c14e1071548ff564cca825bbca\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://145585a2194aa6e2d30edfe709ef2814e20b1b4540469aa6a8f50c841fcb9070\",\"dweb:/ipfs/QmZrwbvtpbtTxqbW5phUrwb3F1tBiPSQc6jZJAXBfsBsAh\"]},\"lib/forge-std/src/safeconsole.sol\":{\"keccak256\":\"0xbaf41fdc6c54297e7cd8250e48b0f20eaac918e342a1028cef3f9a52ac086381\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a500ad81dea226f9910e6b50f99a9ff930105e393a692cbfb2185e4cdb4424ae\",\"dweb:/ipfs/QmVbUQpXNMmMWRiy4FvBNczzq46BMGfUoBikvSHNiCxVTq\"]},\"node_modules/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0xee2337af2dc162a973b4be6d3f7c16f06298259e0af48c5470d2839bfa8a22f4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://30c476b4b2f405c1bb3f0bae15b006d129c80f1bfd9d0f2038160a3bb9745009\",\"dweb:/ipfs/Qmb3VcuDufv6xbHeVgksC4tHpc5gKYVqBEwjEXW72XzSvN\"]},\"script/DeployGummyERC20T.s.sol\":{\"keccak256\":\"0xd78f6f217ad518ceb1a2fae837e436bfc7cd7070b6f643fea78f17698c06987f\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://d2c244df6f57aa728707d72a1e9821f02f89bd1b5a0ba0ab466e470750f22972\",\"dweb:/ipfs/Qmb6FFwLy9Rb6FKhzSCZez7XKtKBk4yu38YQqFPnHt4dkD\"]},\"src/protocol/GummyERC20T.sol\":{\"keccak256\":\"0x911eaadf9d5350b52af61009ed9f200926b43d507afcf0dcf503d17f12e3d9a6\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://a65f1eab85032ba98717a2114eddad8f3d2307f1791e5d8af69c92f9f0361294\",\"dweb:/ipfs/QmTYeQGnTAupG6ZYtaQpuVVXfnKHEB4waCtvXu8whwf3rr\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.21+commit.d9974bed"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "IS_SCRIPT",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "run"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/contracts/=node_modules/openzeppelin-solidity/contracts/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-solidity/=node_modules/openzeppelin-solidity/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "script/DeployGummyERC20T.s.sol": "DeployGummyERC20T"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/forge-std/src/Base.sol": {
+        "keccak256": "0x4ff1a785311017d1eedb1b4737956fa383067ad34eb439abfec1d989754dde1c",
+        "urls": [
+          "bzz-raw://f553622969b9fdb930246704a4c10dfaee6b1a4468c142fa7eb9dc292a438224",
+          "dweb:/ipfs/QmcxqHnqdQsMVtgsfH9VNLmZ3g7GhgNagfq7yvNCDcCHFK"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/Script.sol": {
+        "keccak256": "0x2315be74cc2826f9da401bea3da46a10ad6a6efdf73176d79160b453286d0ed2",
+        "urls": [
+          "bzz-raw://af0d4dc826911d6cb4d6272ed5cbdb6950e1476141cca328e178b808d848789c",
+          "dweb:/ipfs/QmV2ytjUEkV84VtdMs1nZqQTBoVE987cHboQMpiha5yo3e"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdChains.sol": {
+        "keccak256": "0x598b85609125830885b8fb54a18f447d04f8dd799aca3de81baef35eb6b783c0",
+        "urls": [
+          "bzz-raw://c9c128aae4f5668d8c8f71e9e6d9379d8451b8713d139cb66a02d23bc1c75f69",
+          "dweb:/ipfs/QmVRihXHWi2yg9CcAhzKf63Y7m6gWz4P1giGMhXUHT3DFu"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdCheats.sol": {
+        "keccak256": "0xb72f3519e0bf7d31df5d68557525f4fc55d861c3fb3b0f7793144ef7c94cbeb7",
+        "urls": [
+          "bzz-raw://f3456d0f78e6f61203fa7871ba2df0d35925f10db3baee14be623ce2a35b84e2",
+          "dweb:/ipfs/QmWE6QQSBvJifHMraisBTrf1x4WCwrDoTPLX8UKajTiApc"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdJson.sol": {
+        "keccak256": "0x8f914dbd016bd0e318fe2b8bd556fbc8256c7cddc24e3e4fcb9f3c1c1935592d",
+        "urls": [
+          "bzz-raw://19e704df493dde38323303b07d18cadfeb4dcadf1ddc2301add4aea9474fbb5e",
+          "dweb:/ipfs/QmZasuGiLK8LHwWtvpqEBxUR6QFY6GdzLMTJ9q7CMf8PNZ"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdMath.sol": {
+        "keccak256": "0xd90ad4fd8aeaeb8929964e686e769fdedd5eded3fc3815df194a0ab9f91a3fb2",
+        "urls": [
+          "bzz-raw://7919b70f636c7b805223992f28ad1ad0145d6c1385b5931a3589aface5fe6c92",
+          "dweb:/ipfs/QmY7FRaULwoGgFteF8GawjQJRfasNgpWnU2aiMsFrYpuTC"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdStorage.sol": {
+        "keccak256": "0x4298f3f4cedaedb07029820b1daad2c03af45379559392201f7bf3ec71105811",
+        "urls": [
+          "bzz-raw://6e062f36d8d1ae3c383ef8975757926eaa9c4de3a92b5f1fe2d12748bcd8db32",
+          "dweb:/ipfs/QmcWkv3ia5Ew4DZNcudMNSTNXZ3W2QiXTZunRd44e9BT8z"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdStyle.sol": {
+        "keccak256": "0x43e2a8a9b9c2574dabe74f11adf6f782df218f463540e3b5b563609fe108597d",
+        "urls": [
+          "bzz-raw://51363ca97404cf4128e1141428949768c31929e75e014b02c85e887fbbb4f1b8",
+          "dweb:/ipfs/QmVhtbQc2fU4rRmbcfBtz34mAgG4BAZBsbna1Ca4SkoPsK"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdUtils.sol": {
+        "keccak256": "0x502b18a4becda6ecd91fa8b419d8034946bfa80e6cc7f6497f51f8565bfadae0",
+        "urls": [
+          "bzz-raw://bf499ee483a1dfd02023d4ce78ed4029a49794ccd5b849aaab912faea0d2ba61",
+          "dweb:/ipfs/QmP6hwNZW7sYbQK9fBzuZWxfLm6Swx2nKzvZ54qWNqQkzX"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/Vm.sol": {
+        "keccak256": "0x87ba9f3edc254e529db9e3129c954391adcc7fc8574203767979d8d2f1e724b9",
+        "urls": [
+          "bzz-raw://4d16c08d80d9f2869deb6350642cf5af624d21fce6b3b023abbcdedc62e195fe",
+          "dweb:/ipfs/QmURpnnFECPKt3i7P7jQRZpr4ZBXjRGcZ9KzcbKzsgYR2W"
+        ],
+        "license": "MIT OR Apache-2.0"
+      },
+      "lib/forge-std/src/console.sol": {
+        "keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+        "urls": [
+          "bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+          "dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/console2.sol": {
+        "keccak256": "0x954646445d1014c3cd85c7918f5e7adeeca5ee44b68c00bafa237e597a4e35ea",
+        "urls": [
+          "bzz-raw://516fa3be52da4763147175bfba4be0aa011fadbb0c1afb01f97265bd4cee7973",
+          "dweb:/ipfs/QmdixAyMJefx7qePChgdxcBH5MxhmN7vsqPuPLx3CgrVmF"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/interfaces/IMulticall3.sol": {
+        "keccak256": "0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a",
+        "urls": [
+          "bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0",
+          "dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/mocks/MockERC20.sol": {
+        "keccak256": "0xd8703f49411737ecf8d411f8fa66b2bf0ef972ba28b7a4adf1748c63df1bf682",
+        "urls": [
+          "bzz-raw://b7c10a6b8112f6fe3cdccb6240ecd382765216b1a82e9a86a0fec8f5e09eadd1",
+          "dweb:/ipfs/QmdRvPCU4RkjMHsTu3Ric1ZEF1AWDNLp78unFC5aWP17xq"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/mocks/MockERC721.sol": {
+        "keccak256": "0xa24468244abb66e663fb7eee6463cb518eb9a7c14e1071548ff564cca825bbca",
+        "urls": [
+          "bzz-raw://145585a2194aa6e2d30edfe709ef2814e20b1b4540469aa6a8f50c841fcb9070",
+          "dweb:/ipfs/QmZrwbvtpbtTxqbW5phUrwb3F1tBiPSQc6jZJAXBfsBsAh"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/safeconsole.sol": {
+        "keccak256": "0xbaf41fdc6c54297e7cd8250e48b0f20eaac918e342a1028cef3f9a52ac086381",
+        "urls": [
+          "bzz-raw://a500ad81dea226f9910e6b50f99a9ff930105e393a692cbfb2185e4cdb4424ae",
+          "dweb:/ipfs/QmVbUQpXNMmMWRiy4FvBNczzq46BMGfUoBikvSHNiCxVTq"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol": {
+        "keccak256": "0xee2337af2dc162a973b4be6d3f7c16f06298259e0af48c5470d2839bfa8a22f4",
+        "urls": [
+          "bzz-raw://30c476b4b2f405c1bb3f0bae15b006d129c80f1bfd9d0f2038160a3bb9745009",
+          "dweb:/ipfs/Qmb3VcuDufv6xbHeVgksC4tHpc5gKYVqBEwjEXW72XzSvN"
+        ],
+        "license": "MIT"
+      },
+      "script/DeployGummyERC20T.s.sol": {
+        "keccak256": "0xd78f6f217ad518ceb1a2fae837e436bfc7cd7070b6f643fea78f17698c06987f",
+        "urls": [
+          "bzz-raw://d2c244df6f57aa728707d72a1e9821f02f89bd1b5a0ba0ab466e470750f22972",
+          "dweb:/ipfs/Qmb6FFwLy9Rb6FKhzSCZez7XKtKBk4yu38YQqFPnHt4dkD"
+        ],
+        "license": "SEE LICENSE IN LICENSE"
+      },
+      "src/protocol/GummyERC20T.sol": {
+        "keccak256": "0x911eaadf9d5350b52af61009ed9f200926b43d507afcf0dcf503d17f12e3d9a6",
+        "urls": [
+          "bzz-raw://a65f1eab85032ba98717a2114eddad8f3d2307f1791e5d8af69c92f9f0361294",
+          "dweb:/ipfs/QmTYeQGnTAupG6ZYtaQpuVVXfnKHEB4waCtvXu8whwf3rr"
+        ],
+        "license": "SEE LICENSE IN LICENSE"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "script/DeployGummyERC20T.s.sol",
+    "id": 40962,
+    "exportedSymbols": {
+      "DeployGummyERC20T": [
+        40961
+      ],
+      "GummyERC20T": [
+        41303
+      ],
+      "Script": [
+        113
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "51:313:17",
+    "nodes": [
+      {
+        "id": 40932,
+        "nodeType": "PragmaDirective",
+        "src": "51:24:17",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ]
+      },
+      {
+        "id": 40934,
+        "nodeType": "ImportDirective",
+        "src": "77:44:17",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/Script.sol",
+        "file": "forge-std/Script.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 40962,
+        "sourceUnit": 114,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 40933,
+              "name": "Script",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 113,
+              "src": "85:6:17",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 40936,
+        "nodeType": "ImportDirective",
+        "src": "122:60:17",
+        "nodes": [],
+        "absolutePath": "src/protocol/GummyERC20T.sol",
+        "file": "../src/protocol/GummyERC20T.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 40962,
+        "sourceUnit": 41304,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 40935,
+              "name": "GummyERC20T",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 41303,
+              "src": "130:11:17",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 40961,
+        "nodeType": "ContractDefinition",
+        "src": "184:179:17",
+        "nodes": [
+          {
+            "id": 40960,
+            "nodeType": "FunctionDefinition",
+            "src": "227:134:17",
+            "nodes": [],
+            "body": {
+              "id": 40959,
+              "nodeType": "Block",
+              "src": "249:112:17",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 40941,
+                        "name": "vm",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 58,
+                        "src": "259:2:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Vm_$10323",
+                          "typeString": "contract Vm"
+                        }
+                      },
+                      "id": 40943,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "262:14:17",
+                      "memberName": "startBroadcast",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 9399,
+                      "src": "259:17:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                        "typeString": "function () external"
+                      }
+                    },
+                    "id": 40944,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "259:19:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 40945,
+                  "nodeType": "ExpressionStatement",
+                  "src": "259:19:17"
+                },
+                {
+                  "assignments": [
+                    40948
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 40948,
+                      "mutability": "mutable",
+                      "name": "gummyT",
+                      "nameLocation": "300:6:17",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 40959,
+                      "src": "288:18:17",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_GummyERC20T_$41303",
+                        "typeString": "contract GummyERC20T"
+                      },
+                      "typeName": {
+                        "id": 40947,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 40946,
+                          "name": "GummyERC20T",
+                          "nameLocations": [
+                            "288:11:17"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 41303,
+                          "src": "288:11:17"
+                        },
+                        "referencedDeclaration": 41303,
+                        "src": "288:11:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_GummyERC20T_$41303",
+                          "typeString": "contract GummyERC20T"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 40953,
+                  "initialValue": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "id": 40951,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "NewExpression",
+                      "src": "309:15:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_GummyERC20T_$41303_$",
+                        "typeString": "function () returns (contract GummyERC20T)"
+                      },
+                      "typeName": {
+                        "id": 40950,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 40949,
+                          "name": "GummyERC20T",
+                          "nameLocations": [
+                            "313:11:17"
+                          ],
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 41303,
+                          "src": "313:11:17"
+                        },
+                        "referencedDeclaration": 41303,
+                        "src": "313:11:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_GummyERC20T_$41303",
+                          "typeString": "contract GummyERC20T"
+                        }
+                      }
+                    },
+                    "id": 40952,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "309:17:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_GummyERC20T_$41303",
+                      "typeString": "contract GummyERC20T"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "288:38:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 40954,
+                        "name": "vm",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 58,
+                        "src": "336:2:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Vm_$10323",
+                          "typeString": "contract Vm"
+                        }
+                      },
+                      "id": 40956,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "339:13:17",
+                      "memberName": "stopBroadcast",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 9415,
+                      "src": "336:16:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                        "typeString": "function () external"
+                      }
+                    },
+                    "id": 40957,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "336:18:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 40958,
+                  "nodeType": "ExpressionStatement",
+                  "src": "336:18:17"
+                }
+              ]
+            },
+            "functionSelector": "c0406226",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "run",
+            "nameLocation": "236:3:17",
+            "parameters": {
+              "id": 40939,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "239:2:17"
+            },
+            "returnParameters": {
+              "id": 40940,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "249:0:17"
+            },
+            "scope": 40961,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 40937,
+              "name": "Script",
+              "nameLocations": [
+                "214:6:17"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 113,
+              "src": "214:6:17"
+            },
+            "id": 40938,
+            "nodeType": "InheritanceSpecifier",
+            "src": "214:6:17"
+          }
+        ],
+        "canonicalName": "DeployGummyERC20T",
+        "contractDependencies": [
+          41303
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          40961,
+          113,
+          8132,
+          2937,
+          877,
+          74,
+          62
+        ],
+        "name": "DeployGummyERC20T",
+        "nameLocation": "193:17:17",
+        "scope": 40962,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "SEE LICENSE IN LICENSE"
+  },
+  "id": 17
+}
