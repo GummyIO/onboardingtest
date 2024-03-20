@@ -1,4 +1,4 @@
-export const ACCESS_KEY = 'c0d8553d17ccd2c54ddf36e8fe863a0bca47a2b9';
+export const ACCESS_KEY = '';
 
 export const WALLET_1 = '0x4bfb33d65f4167ebe190145939479227e7bf2cb0';
 export const TREASURY_WALLET = '0xcb54ea94191b280c296e6ff0e37c7e76ad42dc6a';
