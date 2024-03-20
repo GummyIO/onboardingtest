@@ -1,5 +1,5 @@
 const abiDecoder = require('abi-decoder');
-export const COVALENT_API_KEY = 'ckey_c4b967827969499ea20f75b4c95';
+export const COVALENT_API_KEY = '';
 
 export interface TokenModel {
     chainId?: number;

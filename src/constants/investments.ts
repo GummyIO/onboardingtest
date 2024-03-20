@@ -81,14 +81,14 @@ export const CACHE_KEY_INVESTMENTS_INVESTMENTS = 'investments/investments';
 export const CACHE_KEY_INVESTMENTS_PROTOCOLS = 'investments/protocols';
 export const CACHE_KEY_INVESTMENTS_FNFTS = 'investments/fnfts';
 
-export const ftmscanApiKey = '9WPBVWMFKMM96K3X56M65KB67HH1J5GBQT';
-export const bybitApiKey = 'r69fMvdMqp8xNvRt7q';
-export const bybitSecretKey = 'NTmEHxHV4g0PhpK7QVTRIUQ236MNbS3GN01O';
-export const gateioApiKey = 'eb86608f85c6514511681675db2ab301';
-export const gateioSecretKey = '83354cbaa1cb352566ef1cbf412cd670d55f3b958fc7dc5768fc2a6e5d0ddec8';
-export const huobiApiKey = '278fc61d-bewr5drtmh-fb9a49b1-859d8';
-export const huobiSecretKey = '27c8d574-8aa96748-ae00f2d4-d5ed8';
-export const moralisApiKey = '9mZ4GZWP5sf0pOcmsNHJcYaYiaUXuEWmwzLwzTrmcibrcr41Vso2Bdt1imeDIkIA';
+export const ftmscanApiKey = '';
+export const bybitApiKey = '';
+export const bybitSecretKey = '';
+export const gateioApiKey = '';
+export const gateioSecretKey = '';
+export const huobiApiKey = '';
+export const huobiSecretKey = '';
+export const moralisApiKey = '';
 
 export type HuobiAccountBalance = {
     spotBalanceState: number;
