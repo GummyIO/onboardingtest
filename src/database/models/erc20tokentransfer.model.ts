@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { Erc20Contract } from "./utils/contracts/erc20Contract";
 
 const transferSchema = new mongoose.Schema(
     {

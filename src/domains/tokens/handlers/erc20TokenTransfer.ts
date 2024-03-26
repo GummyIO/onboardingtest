@@ -21,6 +21,11 @@ export default async function processERC20TokenTransferEvents(
 ) {
 
     const webhook = req.body;
+    if (webhook.logs.length == 0)
+    {
+        console.log("No Logs");
+    return  res.status(200).json();
+    }
     const decodedLogs = Moralis.Streams.parsedLogs<Transfer>(webhook);
 
     const data = new TransferModel( {
@@ -30,5 +35,6 @@ export default async function processERC20TokenTransferEvents(
         }
     );
     data.save();
+    return  res.status(200).json();
 
 }

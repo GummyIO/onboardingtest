@@ -20,7 +20,7 @@ const execute = async () => {
         apiKey: moralisApiKey,
     });
 
-    await listenForTransfer(5, "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+    //await listenForTransfer(5, "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
 
     // votingData(); // This cronjob is working on voting contract so this is not used anymore
     // populateInvestmentsData();

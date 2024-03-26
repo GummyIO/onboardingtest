@@ -27,7 +27,7 @@ apiRouterV1.use('/bonding-farms', bondingFarmsRouter);
 apiRouterV1.use('/auth', authRouter);
 apiRouterV1.use('/hectorpay', hectorpayRouter);
 apiRouterV1.use('/multipay-v2', multipayV2Router);
-apiRouterV1.use('/wallet', walletRouter);
+//apiRouterV1.use('/wallet', walletRouter);
 apiRouterV1.use('/token', tokenRouter);
 apiRouterV1.use('/epfarms', epFarmsRouter);
 apiRouterV1.use('/taxreport', taxReportRouter);
