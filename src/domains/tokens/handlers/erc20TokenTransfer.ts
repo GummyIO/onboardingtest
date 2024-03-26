@@ -4,7 +4,7 @@
 //implement web hook to persist the ERCTransfer data in DB
 
 import Moralis from "moralis";
-import { BigNumber } from 'ethers';
+import { ethers, BigNumber } from 'ethers';
 import { Request, Response } from 'express';
 import TransferModel from "src/database/models/erc20tokentransfer.model";
 
@@ -23,15 +23,18 @@ export default async function processERC20TokenTransferEvents(
     const webhook = req.body;
     if (webhook.logs.length == 0)
     {
-        console.log("No Logs");
+    console.log("No Logs");
     return  res.status(200).json();
     }
+    
+    
     const decodedLogs = Moralis.Streams.parsedLogs<Transfer>(webhook);
 
+    
     const data = new TransferModel( {
         from: decodedLogs[0].from,
         to: decodedLogs[0].to,
-        amount: decodedLogs[0].value
+        amount: ethers.utils.formatEther( decodedLogs[0].value)
         }
     );
     data.save();
