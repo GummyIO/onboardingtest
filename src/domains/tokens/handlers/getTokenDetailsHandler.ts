@@ -68,6 +68,7 @@ export default async function getTokenDetailsHandler(
     req: Request<{}, {}, { chainId: number; addresses: string[] }>,
     res: Response,
 ) {
+    console.log("TEST");
     const { chainId, addresses } = req.body;
 
     const lookupTable = lookupByChain.get(chainId.toString());

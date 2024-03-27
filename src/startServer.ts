@@ -46,6 +46,19 @@ const startServer = () => {
         res.status(200).send('Hector DApp API');
     });
 
+    var cookieSession = require("cookie-session");
+    app.set('trust proxy', 1)
+    app.use(
+        cookieSession({
+        name: "__session",
+        keys: ["key1"],
+            maxAge: 24 * 60 * 60 * 100,
+            secure: false,
+            
+            SameSite: 'none'
+        })
+);
+
     app.use('/api', routers);
 
     vouchersListenAndSync();
